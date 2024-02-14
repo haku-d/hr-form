@@ -3,13 +3,6 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/hr-form",
   "projectType": "application",
-  "targets": {
-    "build": {
-      "executor": "@nx/web:webpack",
-      "options": {
-        "postcssConfig": "apps/hr-form/postcss.config.js"
-      }
-    }
-  },
+  "targets": {},
   "tags": []
 }
