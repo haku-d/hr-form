@@ -1,6 +1,6 @@
 # [WIP] HrForm
 
-<a alt=logo" href="#"><img src="https://raw.githubusercontent.com/haku-d/hr-form/main/apps/hr-form/public/img/logo.png" height="45"></a>
+<a alt=logo" href="#"><img src="https://raw.githubusercontent.com/haku-d/hr-form/main/apps/hr-form/public/img/logo.png" height="45"/></a>
 
 ## HrForm is simple and inspired by Typeform but it only focuses on recruitment.
 
