@@ -1,4 +1,13 @@
+import { Roboto } from 'next/font/google';
+
 import './global.css';
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['100', '300', '400'],
+  style: 'normal',
+  variable: '--font-roboto',
+});
 
 export const metadata = {
   title: 'Welcome to hr-form',
@@ -11,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className={roboto.variable}>
+      <body className="font-sans">{children}</body>
     </html>
   );
 }

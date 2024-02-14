@@ -16,7 +16,13 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": [
+      "jest",
+      "node"
+    ],
+    "paths": {
+      "@/components/*": ["apps/hr-form/src/components/*"]
+    }
   },
   "include": [
     "**/*.ts",
@@ -25,7 +31,13 @@
     "**/*.jsx",
     "../../apps/hr-form/.next/types/**/*.ts",
     "../../dist/apps/hr-form/.next/types/**/*.ts",
-    "next-env.d.ts"
+    "next-env.d.ts",
+    ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "jest.config.ts", "**/*.spec.ts", "**/*.test.ts"]
+  "exclude": [
+    "node_modules",
+    "jest.config.ts",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
 }
