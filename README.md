@@ -11,3 +11,9 @@ To run dev mode run `yarn nx hr-form:dev`
 ## Build the app
 
 `yarn nx hr-form:build`
+
+## TODOS:
+
+- [ ] Setup backend service
+- [ ] Load and render data from backend service
+- [ ] Apply animation
